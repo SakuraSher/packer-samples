@@ -6,5 +6,13 @@ variables "value_addr" {
 }
 
 variables "valut_token" {
-     
+     type = string
+     sensitive = true
  }
+
+ variables "aws_region"{
+    type = string
+    sensitive = true
+ }
+
+ variables "    "
